@@ -3,3 +3,4 @@ css/normalize.css
 css/normalize.min.css
 .DS_Store
 .sass-cache
+_site/**
