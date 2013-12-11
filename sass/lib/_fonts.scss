@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: $copy;
+
+	p {
+		font-size: 1.05em;
+		line-height: em(26);
+		word-spacing: em(1);
+	}
+
+	.footer a {
+		color: $copy;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
