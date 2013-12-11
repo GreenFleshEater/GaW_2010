@@ -10,6 +10,25 @@ body {
 		word-spacing: em(1);
 	}
 
+	#home, #dates {
+		h1 {
+			text-align: center;
+			margin-bottom: 2%;
+		}
+	}
+	#dates {
+		p {
+			text-align: center;
+			a{
+				color: white;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
 	.footer a {
 		color: $copy;
 		text-decoration: underline;
